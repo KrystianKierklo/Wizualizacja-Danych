@@ -26,7 +26,7 @@ slownik_produkty = {'czekolada': 'sztuki', 'banany': 'kg', 'jablka': 'kg', 'pacz
 slownik_comprehension = {produkt for produkt in slownik_produkty.keys() if slownik_produkty[produkt] == 'sztuki'}
 print(slownik_comprehension)
 
-zadanie 4
+#zadanie 4
 def czy_trojkat_jest_prostokatny(a, b, c):
     if (a + b > c) and (a + c > b) and (b + c > a):
         if (a * a + b * b == c * c) or (a * a + c * c == b * b) or (c * c + b * b == a * a):
